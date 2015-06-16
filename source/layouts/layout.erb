@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "No 420" %></title>
+
+    <%= stylesheet_link_tag "all" %>
+    <%= javascript_include_tag  "all" %>
+  </head>
+
+  <body class="<%= page_classes %>">
+
+    <!-- NAV -->
+    <% if current_page.url == '/' %>
+    <nav class="trans">
+    <% else %>
+    <nav>
+    <% end %>
+      <div class="relative">
+        <!-- <div id="hamburger"></div> -->
+        <a id="siteid" href="/">
+          <%= image_tag 'logo-small.png' %>
+          <span>No 420</span>
+        </a>
+        <div class="right">
+          <span class="button button-none">(866) 623-4761</span>
+          <a class="button button-primary" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <section class="mobile-menu">
+      <ul>
+        <li><%= link_to 'Home', '/' %></li>
+        <li><%= link_to 'Page Name', 'Example.html' %></li>
+        <li class="submenu">
+          <%= link_to '<span>Page name</span>', 'javascript:void(0);' %>
+          <ul>
+            <li><%= link_to 'Page Name', 'Example.html' %></li>
+          </ul>
+        </li>
+      </ul>
+    </section> -->
+    <!-- /NAV -->
+
+    <%= yield %>
+  </body>
+</html>
