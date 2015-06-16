@@ -16,6 +16,7 @@ nav {
 	#siteid {
 		@include position(absolute, 0 null null 0);
 		height: 100%;
+		@include transition(all, 0.3s);
 		span {
 			color: #555;
 			font-weight: 800;
@@ -66,7 +67,7 @@ nav {
 				height: 80px;
 			}
 			#siteid {
-				display: none;
+				@include position(absolute, -150px null null 0);
 			}
 			.right {
 				@include position(absolute, 18px 20px auto auto);
