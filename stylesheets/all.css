@@ -1822,7 +1822,7 @@ section.mobile-menu {
   text-align: center;
   border-bottom: 1px solid #ccc;
   /* img size is 50x50 */
-  background: url("/images/gridme.png") repeat 0 0;
+  background: url("../images/gridme.png") repeat 0 0;
   -webkit-animation: bg-scrolling 1.8s infinite;
   /* Safari 4+ */
   -moz-animation: bg-scrolling 1.8s infinite;
