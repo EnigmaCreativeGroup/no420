@@ -1,0 +1,23 @@
+$ecg-divider-color: #ccc;
+$ecg-spacing: 50px;
+$ecg-spacing-sm: 25px;
+$ecg-spacing-lg: 80px;
+.divider {
+  display: block;
+  width: 100%;
+  height:1px;
+  background-color:$ecg-divider-color;
+  margin: $ecg-spacing 0;
+  &.divider.spacing-sm {
+    margin: $ecg-spacing-sm 0;
+  }
+  &.divider.spacing-lg {
+    margin: $ecg-spacing-lg 0;
+  }
+  &.divider.spacing-none {
+    margin: 0;
+  }
+  &.invisible {
+    background:none;
+  }
+}

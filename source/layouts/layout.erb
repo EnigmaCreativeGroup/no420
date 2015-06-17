@@ -30,11 +30,11 @@
         <!-- <div id="hamburger"></div> -->
         <a id="siteid" href="/">
           <%= image_tag 'logo-small.png' %>
-          <span>No 420</span>
+          <span>No. 420</span>
         </a>
         <div class="right">
           <span class="button button-none">(866) 623-4761</span>
-          <a class="button button-primary" href="contact.html">Contact</a>
+          <%= link_to 'Contact Us', 'contact', :class=>'button button-primary' %>
         </div>
       </div>
     </nav>
@@ -54,5 +54,33 @@
     <!-- /NAV -->
 
     <%= yield %>
+
+    <footer class="simple-footer">
+      <%= image_tag 'logo-trans-white-small.png'%>
+      <section class="footer-row">
+        <!-- <div class="footer-col">
+          <h5>Columns 1</h5>
+          <ul>
+            <li><a href="javascript:void(0);">Footer link</a></li>
+            <li><a href="javascript:void(0);">Footer link</a></li>
+            <li><a href="javascript:void(0);">Footer link</a></li>
+            <li><a href="javascript:void(0);">Footer link</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Columns 2</h5>
+          <ul>
+            <li><a href="javascript:void(0);">Footer link</a></li>
+            <li><a href="javascript:void(0);">Footer link</a></li>
+            <li><a href="javascript:void(0);">Footer link</a></li>
+            <li><a href="javascript:void(0);">Footer link</a></li>
+          </ul>
+        </div> -->
+        <div class="footer-bottom">
+          Copyright © No. 420 2015. All rights reserved
+          <div class="address">1401 Fulton St #909, Fresno, CA 93721</div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

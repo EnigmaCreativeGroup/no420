@@ -194,12 +194,18 @@ h1, h2, h3, h4, h5, h6 {
   a, a:hover, a:active, a:focus {
     color: inherit;
   }
+  &.spaced {
+    letter-spacing: 3px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
   &.light {
     font-weight: 300;
     text-transform: none;
+    &.caps {
+      text-transform: uppercase;
+    }
   }
 }
 
@@ -246,15 +252,18 @@ button {
   text-align: center;
   font-size: 18px;
   font-weight: 700;
-  line-height: 38px;
+  line-height: 42px;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border: 3px solid $border-color;
+  border: 1px solid $border-color;
   cursor: pointer;
   box-sizing: border-box;
   border-radius: 3px;
+  font-family: Oswald, arial;
+  letter-spacing: 2px;
+  font-weight: 300;
   @media screen and (max-width:750px) {
     font-size: 14px;
     padding: 0 15px;
@@ -264,6 +273,7 @@ button {
 .button.button-none {
   border: none;
   cursor: default;
+  line-height: 44px;
 }
 
 input {
