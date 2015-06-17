@@ -34,6 +34,9 @@
 
 activate :directory_indexes
 
+activate :relative_assets
+set :relative_links, true
+
 page "/404.html", :directory_index => false
 
 # Automatic image dimensions on image_tag helper
