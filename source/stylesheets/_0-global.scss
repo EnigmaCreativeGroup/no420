@@ -1,4 +1,4 @@
-$primary-color:#7ED6CF;
+$main:#7ED6CF;
 $dark:#284241;
 $shaded:#1E5753;
 $light:#7ED6CF;
@@ -145,7 +145,7 @@ img {
     color: #fff;
   }
   &.blue {
-    background: $primary-color;
+    background: $main;
     color: #fff;
   }
   &.grey {

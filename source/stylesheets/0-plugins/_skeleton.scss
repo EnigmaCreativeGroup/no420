@@ -38,7 +38,7 @@ $bp-larger-than-desktophd : "min-width: 1200px" !default;
 // Colors
 $light-grey: #e1e1e1 !default;
 $dark-grey: #333 !default;
-$primary-color: #7ED6CF !default;
+$primary-color: #1E5753 !default;
 $secondary-color: lighten($dark-grey, 13.5%) !default;
 $border-color: #bbb !default;
 $link-color: #7ED6CF !default;
@@ -260,7 +260,7 @@ button {
   border: 1px solid $border-color;
   cursor: pointer;
   box-sizing: border-box;
-  border-radius: 3px;
+  border-radius: 12px;
   font-family: Oswald, arial;
   letter-spacing: 2px;
   font-weight: 300;
@@ -288,16 +288,18 @@ input {
     font-size: 18px;
     font-weight: 700;
     line-height: 38px;
-    letter-spacing: .1rem;
     text-transform: uppercase;
     text-decoration: none;
     white-space: nowrap;
     background-color: transparent;
-    border: 3px solid $border-color;
-    border-radius: 0;
-    font-family: $font-family;
+    border: 1px solid $border-color;
+    border-radius: 12px;
+    font-family: Oswald, arial;
+    letter-spacing: 2px;
+    font-weight: 300;
     cursor: pointer;
     box-sizing: border-box;
+    @include transition(all 0.3s);
     @media screen and (max-width:750px) {
       font-size: 14px;
       padding: 0 15px;
