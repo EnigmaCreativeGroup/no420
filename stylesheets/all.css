@@ -1,0 +1,4032 @@
+@charset "UTF-8";
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 12, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 30, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 50, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 64, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Removes default margin.
+ */
+/* line 74, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 86, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 108, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+h1 {
+  font-size: 2em; }
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 116, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 124, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+b,
+strong {
+  font-weight: bold; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 133, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 141, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 151, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 163, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 173, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 181, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+small {
+  font-size: 80%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 189, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 197, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+sup {
+  top: -0.5em; }
+
+/* line 201, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 213, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+img {
+  border: 0; }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 221, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 233, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 245, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 256, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 267, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 281, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 294, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 316, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 328, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 340, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 349, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 360, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 373, /home/jerv/work/no420/source/stylesheets/_normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 6, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+html {
+  overflow-y: scroll; }
+
+/* line 10, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+body:not(.index) {
+  margin-top: 50px; }
+
+/* line 14, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.container {
+  position: relative; }
+
+/* line 18, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.text-center {
+  text-align: center; }
+
+@media screen and (max-width: 840px) {
+  /* line 23, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .mobile-center {
+    text-align: center; } }
+@media screen and (max-width: 840px) {
+  /* line 29, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .mobile-hide {
+    display: none !important; } }
+/* line 34, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 40, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+img {
+  max-width: 100%;
+  display: block; }
+
+/* GOML */
+/* line 56, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.padded {
+  padding-top: 45px;
+  padding-bottom: 45px; }
+  /* line 59, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .padded.top {
+    padding-bottom: 0; }
+  /* line 62, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .padded.bottom {
+    padding-top: 0; }
+  @media screen and (max-width: 750px) {
+    /* line 56, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+    .padded {
+      padding-top: 25px;
+      padding-bottom: 25px; } }
+  @media screen and (min-width: 840px) {
+    /* line 70, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+    .padded.mobile, .padded.top.mobile, .padded.bottom.mobile {
+      padding-top: 0;
+      padding-bottom: 0; } }
+
+/* line 77, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.padded-sm {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  /* line 80, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .padded-sm.top {
+    padding-bottom: 0; }
+  /* line 83, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .padded-sm.bottom {
+    padding-top: 0; }
+  @media screen and (max-width: 750px) {
+    /* line 77, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+    .padded-sm {
+      padding-top: 12px;
+      padding-bottom: 12px; } }
+  @media screen and (min-width: 840px) {
+    /* line 91, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+    .padded-sm.mobile, .padded-sm.top.mobile, .padded-sm.bottom.mobile {
+      padding-top: 0;
+      padding-bottom: 0; } }
+
+/* line 98, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.margined {
+  margin-top: 45px;
+  margin-bottom: 45px; }
+  /* line 101, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .margined.top {
+    margin-bottom: 0; }
+  /* line 104, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .margined.bottom {
+    margin-top: 0; }
+  @media screen and (max-width: 750px) {
+    /* line 98, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+    .margined {
+      margin-top: 25px;
+      margin-bottom: 25px; } }
+  @media screen and (min-width: 840px) {
+    /* line 112, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+    .margined.mobile, .margined.top.mobile, .margined.bottom.mobile {
+      margin-top: 0;
+      margin-bottom: 0; } }
+
+/* line 119, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.margined-sm {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  /* line 122, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .margined-sm.top {
+    margin-bottom: 0; }
+  /* line 125, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .margined-sm.bottom {
+    margin-top: 0; }
+  @media screen and (max-width: 750px) {
+    /* line 119, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+    .margined-sm {
+      margin-top: 8px;
+      margin-bottom: 8px; } }
+  @media screen and (min-width: 840px) {
+    /* line 133, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+    .margined-sm.mobile, .margined-sm.top.mobile, .margined-sm.bottom.mobile {
+      margin-top: 0;
+      margin-bottom: 0; } }
+
+/* line 140, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.window {
+  padding: 24px 0;
+  overflow: hidden; }
+  /* line 143, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .window.black {
+    background: #333;
+    color: #fff; }
+  /* line 147, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .window.blue {
+    background: #7ED6CF;
+    color: #fff; }
+  /* line 151, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .window.grey {
+    background: #eee; }
+  /* line 156, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .window.blue .button, .window.black .button {
+    color: rgba(250, 250, 250, 0.9);
+    border-color: rgba(250, 250, 250, 0.4); }
+    /* line 159, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+    .window.blue .button:hover, .window.black .button:hover {
+      color: #fff;
+      border-color: rgba(250, 250, 250, 0.8); }
+  /* line 165, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+  .window.padding-sm {
+    padding: 24px 0; }
+  @media screen and (min-width: 750px) {
+    /* line 140, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+    .window {
+      padding: 65px 0; } }
+
+/* line 179, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.max-140 {
+  max-width: 140px;
+  margin: 25px auto;
+  display: block; }
+
+/* line 185, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.max-240 {
+  max-width: 240px;
+  margin: 25px auto;
+  display: block; }
+
+/* line 191, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.max-440 {
+  max-width: 440px;
+  margin: 25px auto;
+  display: block; }
+
+/* line 197, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.max-640 {
+  max-width: 640px;
+  margin: 25px auto;
+  display: block; }
+
+/* line 203, /home/jerv/work/no420/source/stylesheets/_0-global.scss */
+.margin-none {
+  margin: 0 !important; }
+
+/* line 4, /home/jerv/work/no420/source/stylesheets/0-plugins/neat/grid/_box-sizing.scss */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 9, /home/jerv/work/no420/source/stylesheets/0-plugins/neat/grid/_box-sizing.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/* line 1, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_buttons.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"],
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: antialiased;
+  background-color: #477dca;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  /* line 21, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_buttons.scss */
+  button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
+  button:hover,
+  button:focus {
+    background-color: #2c5999;
+    color: #fff; }
+  /* line 27, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_buttons.scss */
+  button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+
+/* line 1, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+fieldset {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  margin: 0 0 0.75em;
+  padding: 1.5em; }
+
+/* line 8, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+input,
+label,
+select {
+  display: block;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em; }
+
+/* line 16, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+label {
+  font-weight: 600;
+  margin-bottom: 0.375em; }
+  /* line 20, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+  label.required::after {
+    content: "*"; }
+  /* line 24, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+  label abbr {
+    display: none; }
+
+/* line 29, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea,
+select[multiple=multiple],
+textarea {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  transition: border-color;
+  width: 100%; }
+  /* line 44, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+  input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
+  select[multiple=multiple]:hover,
+  textarea:hover {
+    border-color: #c4c4c4; }
+  /* line 48, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+  input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
+  select[multiple=multiple]:focus,
+  textarea:focus {
+    border-color: #477dca;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+    outline: none; }
+
+/* line 55, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+textarea {
+  resize: vertical; }
+
+/* line 59, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
+/* line 63, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+
+/* line 69, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+input[type="file"] {
+  padding-bottom: 0.75em;
+  width: 100%; }
+
+/* line 74, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_forms.scss */
+select {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+  width: auto; }
+
+/* line 1, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+/* line 20, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_lists.scss */
+dl {
+  margin-bottom: 0.75em; }
+  /* line 23, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_lists.scss */
+  dl dt {
+    font-weight: bold;
+    margin-top: 0.75em; }
+  /* line 28, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_lists.scss */
+  dl dd {
+    margin: 0; }
+
+/* line 1, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_tables.scss */
+table {
+  -webkit-font-feature-settings: "kern", "liga", "tnum";
+  -moz-font-feature-settings: "kern", "liga", "tnum";
+  -ms-font-feature-settings: "kern", "liga", "tnum";
+  font-feature-settings: "kern", "liga", "tnum";
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 9, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_tables.scss */
+th {
+  border-bottom: 1px solid #b7b7b7;
+  font-weight: 600;
+  padding: 0.75em 0;
+  text-align: left; }
+
+/* line 16, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_tables.scss */
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.75em 0; }
+
+/* line 21, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_tables.scss */
+tr,
+td,
+th {
+  vertical-align: middle; }
+
+/* line 1, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_typography.scss */
+body {
+  -webkit-font-feature-settings: "kern", "liga", "pnum";
+  -moz-font-feature-settings: "kern", "liga", "pnum";
+  -ms-font-feature-settings: "kern", "liga", "pnum";
+  font-feature-settings: "kern", "liga", "pnum";
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.5; }
+
+/* line 10, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.2;
+  margin: 0 0 0.75em; }
+
+/* line 22, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_typography.scss */
+p {
+  margin: 0 0 0.75em; }
+
+/* line 26, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_typography.scss */
+a {
+  color: #477dca;
+  text-decoration: none;
+  transition: color 0.1s linear; }
+  /* line 31, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_typography.scss */
+  a:active, a:focus, a:hover {
+    color: #2c5999; }
+  /* line 37, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_typography.scss */
+  a:active, a:focus {
+    outline: none; }
+
+/* line 43, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_typography.scss */
+hr {
+  border-bottom: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0; }
+
+/* line 51, /home/jerv/work/no420/source/stylesheets/0-plugins/base/_typography.scss */
+img,
+picture {
+  margin: 0;
+  max-width: 100%; }
+
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/9/2014
+* Sass Version by Seth Coelen https://github.com/whatsnewsaes
+*/
+/* line 73, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+/* line 82, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+@media (min-width: 400px) {
+  /* line 91, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .container {
+    width: 85%;
+    padding: 0; } }
+@media (min-width: 860px) {
+  /* line 99, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .container {
+    width: 80%; }
+
+  /* line 102, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .column,
+  .columns {
+    margin-left: 4%; }
+
+  /* line 106, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+  /* line 111, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .one.column,
+  .one.columns {
+    width: 4.66667%; }
+
+  /* line 113, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .two.columns {
+    width: 13.33333%; }
+
+  /* line 114, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .three.columns {
+    width: 22%; }
+
+  /* line 115, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .four.columns {
+    width: 30.66667%; }
+
+  /* line 116, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .five.columns {
+    width: 39.33333%; }
+
+  /* line 117, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .six.columns {
+    width: 48%; }
+
+  /* line 118, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .seven.columns {
+    width: 56.66667%; }
+
+  /* line 119, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .eight.columns {
+    width: 65.33333%; }
+
+  /* line 120, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .nine.columns {
+    width: 74%; }
+
+  /* line 121, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .ten.columns {
+    width: 82.66667%; }
+
+  /* line 122, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .eleven.columns {
+    width: 91.33333%; }
+
+  /* line 123, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .twelve.columns {
+    width: 100%;
+    margin-left: 0; }
+
+  /* line 125, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .one-third.column {
+    width: 30.66667%; }
+
+  /* line 126, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .two-thirds.column {
+    width: 65.33333%; }
+
+  /* line 128, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .one-half.column {
+    width: 48%; }
+
+  /* line 132, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-one.column,
+  .offset-by-one.columns {
+    margin-left: 8.66667%; }
+
+  /* line 134, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-two.column,
+  .offset-by-two.columns {
+    margin-left: 17.33333%; }
+
+  /* line 136, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-three.column,
+  .offset-by-three.columns {
+    margin-left: 26%; }
+
+  /* line 138, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-four.column,
+  .offset-by-four.columns {
+    margin-left: 34.66667%; }
+
+  /* line 140, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-five.column,
+  .offset-by-five.columns {
+    margin-left: 43.33333%; }
+
+  /* line 142, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-six.column,
+  .offset-by-six.columns {
+    margin-left: 52%; }
+
+  /* line 144, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-seven.column,
+  .offset-by-seven.columns {
+    margin-left: 60.66667%; }
+
+  /* line 146, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-eight.column,
+  .offset-by-eight.columns {
+    margin-left: 69.33333%; }
+
+  /* line 148, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-nine.column,
+  .offset-by-nine.columns {
+    margin-left: 78%; }
+
+  /* line 150, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-ten.column,
+  .offset-by-ten.columns {
+    margin-left: 86.66667%; }
+
+  /* line 152, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-eleven.column,
+  .offset-by-eleven.columns {
+    margin-left: 95.33333%; }
+
+  /* line 156, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-one-third.column,
+  .offset-by-one-third.columns {
+    margin-left: 34.66667%; }
+
+  /* line 158, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-two-thirds.column,
+  .offset-by-two-thirds.columns {
+    margin-left: 69.33333%; }
+
+  /* line 161, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  .offset-by-one-half.column,
+  .offset-by-one-half.column {
+    margin-left: 52%; } }
+/* line 173, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+html {
+  font-size: 62.5%; }
+
+/* line 177, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+body {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; }
+
+/* line 188, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Oswald, arial; }
+  /* line 194, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  h1 a, h1 a:hover, h1 a:active, h1 a:focus, h2 a, h2 a:hover, h2 a:active, h2 a:focus, h3 a, h3 a:hover, h3 a:active, h3 a:focus, h4 a, h4 a:hover, h4 a:active, h4 a:focus, h5 a, h5 a:hover, h5 a:active, h5 a:focus, h6 a, h6 a:hover, h6 a:active, h6 a:focus {
+    color: inherit; }
+  /* line 197, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  h1.spaced, h2.spaced, h3.spaced, h4.spaced, h5.spaced, h6.spaced {
+    letter-spacing: 3px; }
+
+/* line 203, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+h1.light, h2.light, h3.light, h4.light, h5.light, h6.light {
+  font-weight: 300;
+  text-transform: none; }
+  /* line 206, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  h1.light.caps, h2.light.caps, h3.light.caps, h4.light.caps, h5.light.caps, h6.light.caps {
+    text-transform: uppercase; }
+
+/* line 212, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+h1 {
+  font-size: 4.0rem;
+  line-height: 1.2; }
+
+/* line 213, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+h2 {
+  font-size: 3.6rem;
+  line-height: 1.25; }
+
+/* line 214, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+h3 {
+  font-size: 3.0rem;
+  line-height: 1.3; }
+
+/* line 215, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+h4 {
+  font-size: 2.4rem;
+  line-height: 1.35; }
+
+/* line 216, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+h5 {
+  font-size: 1.8rem;
+  line-height: 1.5; }
+
+/* line 217, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+h6 {
+  font-size: 1.5rem;
+  line-height: 1.6; }
+
+@media (min-width: 550px) {
+  /* line 221, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  h1 {
+    font-size: 5.0rem; }
+
+  /* line 222, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  h2 {
+    font-size: 4.2rem; }
+
+  /* line 223, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  h3 {
+    font-size: 3.6rem; }
+
+  /* line 224, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  h4 {
+    font-size: 3.0rem; }
+
+  /* line 225, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  h5 {
+    font-size: 2.4rem; }
+
+  /* line 226, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  h6 {
+    font-size: 1.5rem; } }
+/* line 229, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+p {
+  margin-top: 0; }
+
+/* line 236, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+a {
+  color: #7ED6CF; }
+  /* line 238, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  a:hover {
+    color: #6bd0c8; }
+
+/* line 246, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.button,
+button {
+  display: inline-block;
+  height: 44px;
+  padding: 0 30px;
+  color: #555555;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-family: Oswald, arial;
+  letter-spacing: 2px;
+  font-weight: 300; }
+  @media screen and (max-width: 750px) {
+    /* line 246, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+    .button,
+    button {
+      font-size: 14px;
+      padding: 0 15px; } }
+
+/* line 273, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.button.button-none {
+  border: none;
+  cursor: default;
+  line-height: 44px; }
+
+/* line 280, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="submit"], input[type="reset"], input[type="button"] {
+  display: inline-block;
+  height: 44px;
+  padding: 0 30px;
+  color: #555555;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 1px solid #bbb;
+  border-radius: 12px;
+  font-family: Oswald, arial;
+  letter-spacing: 2px;
+  font-weight: 300;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+  @media screen and (max-width: 750px) {
+    /* line 280, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+    input[type="submit"], input[type="reset"], input[type="button"] {
+      font-size: 14px;
+      padding: 0 15px; } }
+
+/* line 310, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.button:hover,
+button:hover {
+  color: #333;
+  border-color: #888888;
+  outline: 0; }
+
+/* line 318, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+  color: #333;
+  border-color: #888888;
+  outline: 0;
+  background: none; }
+
+/* line 328, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.button:focus,
+button:focus {
+  color: #333;
+  border-color: #888888;
+  outline: 0; }
+
+/* line 336, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
+  color: #333;
+  border-color: #888888;
+  outline: 0; }
+
+/* line 345, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.button.button-primary,
+button.button-primary {
+  color: #fff;
+  background-color: #1E5753;
+  border-color: #1E5753; }
+
+/* line 353, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+  color: #fff;
+  border-color: #1E5753;
+  background-color: #1E5753; }
+
+/* line 362, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.button.button-primary:hover,
+button.button-primary:hover {
+  background-color: #2b7d77; }
+
+/* line 368, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover {
+  background-color: #2b7d77; }
+
+/* line 375, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.button.button-primary:focus,
+button.button-primary:focus {
+  color: #fff;
+  background-color: #11312f; }
+
+/* line 382, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+  color: #fff;
+  background-color: #11312f; }
+/* line 388, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"] {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+
+/* line 405, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.button.button-primary.black,
+button.button-primary.black {
+  color: #fff;
+  background-color: #333;
+  border-color: #333; }
+
+/* line 413, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="submit"].button-primary.black, input[type="reset"].button-primary.black, input[type="button"].button-primary.black {
+  color: #fff;
+  border-color: #333;
+  background-color: #333; }
+
+/* line 422, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.button.button-primary.black:hover,
+button.button-primary.black:hover {
+  background-color: #4d4d4d; }
+
+/* line 428, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="submit"].button-primary.black:hover, input[type="reset"].button-primary.black:hover, input[type="button"].button-primary.black:hover {
+  background-color: #4d4d4d; }
+
+/* line 435, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.button.button-primary.black:focus,
+button.button-primary.black:focus {
+  color: #fff;
+  background-color: #1a1a1a; }
+
+/* line 442, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="submit"].button-primary.black:focus, input[type="reset"].button-primary.black:focus, input[type="button"].button-primary.black:focus {
+  color: #fff;
+  background-color: #1a1a1a; }
+/* line 448, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"] {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+
+/* line 468, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+
+/* line 481, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+/* line 494, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+
+/* line 504, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus {
+  border: 1px solid #1E5753;
+  outline: 0;
+  box-shadow: none; }
+
+/* line 517, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+textarea:focus,
+select:focus {
+  border: 1px solid #1E5753;
+  outline: 0;
+  box-shadow: none; }
+
+/* line 524, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: normal; }
+  /* line 529, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  label span,
+  legend span {
+    color: red; }
+
+/* line 534, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+fieldset {
+  padding: 0;
+  border-width: 0; }
+
+/* line 540, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input[type="checkbox"], input[type="radio"] {
+  display: inline; }
+
+/* line 546, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 556, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+ul {
+  list-style: circle inside; }
+
+/* line 560, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+ol {
+  list-style: decimal inside;
+  padding-left: 0;
+  margin-top: 0; }
+
+/* line 566, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+ul {
+  padding-left: 0;
+  margin-top: 0; }
+  /* line 569, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+  ul ul, ul ol {
+    margin: 1.5rem 0 1.5rem 3rem;
+    font-size: 90%; }
+
+/* line 576, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+ol ol, ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; }
+
+/* line 582, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+li {
+  margin-bottom: 1rem; }
+
+/* line 589, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #f1f1f1;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px; }
+
+/* line 599, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; }
+
+/* line 608, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e1e1e1; }
+
+/* line 615, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+
+/* line 620, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+/* line 628, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+button,
+.button {
+  margin-bottom: 1rem; }
+
+/* line 633, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem; }
+
+/* line 640, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 2.5rem; }
+
+/* line 655, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+
+/* line 660, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+
+/* line 665, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.u-pull-right {
+  float: right; }
+
+/* line 669, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.u-pull-left {
+  float: left; }
+
+/* line 676, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #e1e1e1; }
+
+/* line 688, /home/jerv/work/no420/source/stylesheets/0-plugins/_skeleton.scss */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 7, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+footer.simple-footer {
+  padding: 35px 0;
+  background-color: #1E5753;
+  color: #fff;
+  text-align: center; }
+  @media screen and (min-width: 720px) {
+    /* line 7, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+    footer.simple-footer {
+      padding: 55px 0; } }
+  /* line 15, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+  footer.simple-footer > img {
+    display: block;
+    margin: 0 auto 15px auto; }
+  /* line 19, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+  footer.simple-footer .footer-row {
+    max-width: 460px;
+    margin: 0 auto;
+    display: block; }
+    /* line 23, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+    footer.simple-footer .footer-row .footer-col {
+      display: block;
+      width: 100%;
+      margin-bottom: 25px; }
+    @media screen and (min-width: 860px) {
+      /* line 19, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+      footer.simple-footer .footer-row {
+        padding: 0 25px; }
+        /* line 30, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+        footer.simple-footer .footer-row .footer-col {
+          display: inline-block;
+          float: left;
+          width: 49.9%;
+          margin-bottom: 0; } }
+  /* line 38, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+  footer.simple-footer h5 {
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px; }
+  /* line 45, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+  footer.simple-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    /* line 49, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+    footer.simple-footer ul li {
+      margin-bottom: 3px; }
+  /* line 53, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+  footer.simple-footer a,
+  footer.simple-footer a:hover,
+  footer.simple-footer a:active,
+  footer.simple-footer a:focus {
+    color: #fff; }
+    /* line 58, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+    footer.simple-footer a:hover,
+    footer.simple-footer a:hover:hover,
+    footer.simple-footer a:active:hover,
+    footer.simple-footer a:focus:hover {
+      color: rgba(250, 250, 250, 0.7); }
+  /* line 62, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+  footer.simple-footer i {
+    font-size: 28px !important;
+    margin-right: 5px; }
+  /* line 66, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+  footer.simple-footer .footer-bottom {
+    width: 100%;
+    padding-top: 15px;
+    content: "";
+    display: block;
+    clear: both;
+    text-align: center; }
+    /* line 73, /home/jerv/work/no420/source/stylesheets/1-modules/_footer.scss */
+    footer.simple-footer .footer-bottom .address {
+      color: rgba(250, 250, 250, 0.4); }
+
+/* line 1, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+nav {
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  transition: all, 0.3s;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  z-index: 9001; }
+  /* line 9, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+  nav > .relative {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+    -webkit-transition: all, 0.3s;
+    -moz-transition: all, 0.3s;
+    transition: all, 0.3s; }
+  /* line 16, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+  nav #siteid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    -webkit-transition: all, 0.3s;
+    -moz-transition: all, 0.3s;
+    transition: all, 0.3s; }
+    /* line 20, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    nav #siteid span {
+      color: #555;
+      font-weight: 800;
+      font-size: 18px;
+      display: inline-block;
+      line-height: 50px;
+      margin-left: 10px;
+      float: left;
+      width: auto;
+      font-family: "Oswald", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    /* line 31, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    nav #siteid:hover span {
+      color: #333; }
+    /* line 34, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    nav #siteid img {
+      margin-top: 8px;
+      margin-left: 5px;
+      display: inline-block;
+      height: 32px;
+      float: left; }
+  /* line 42, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+  nav .right {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    bottom: auto;
+    left: auto;
+    -webkit-transition: all, 0.3s;
+    -moz-transition: all, 0.3s;
+    transition: all, 0.3s;
+    display: none; }
+    /* line 46, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    nav .right .button-none {
+      display: none;
+      font-family: Oswald, arial;
+      font-weight: 300; }
+    @media screen and (min-width: 720px) {
+      /* line 52, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+      nav .right .button-none {
+        display: inline-block; } }
+    @media screen and (min-width: 550px) {
+      /* line 42, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+      nav .right {
+        display: block; } }
+    /* line 59, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    nav .right .button, nav .right button {
+      padding: 0 12px;
+      -webkit-transition: all, 0.3s;
+      -moz-transition: all, 0.3s;
+      transition: all, 0.3s; }
+  @media screen and (min-width: 960px) {
+    /* line 65, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    nav.trans {
+      background: none;
+      box-shadow: none; }
+      /* line 68, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+      nav.trans > .relative {
+        height: 80px; }
+      /* line 71, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+      nav.trans #siteid {
+        position: absolute;
+        top: -150px;
+        left: 0; }
+      /* line 74, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+      nav.trans .right {
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        bottom: auto;
+        left: auto; }
+      /* line 77, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+      nav.trans #hamburger {
+        position: absolute;
+        top: 15px;
+        left: 15px; }
+      /* line 80, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+      nav.trans #hamburger {
+        opacity: 1; }
+        /* line 82, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+        nav.trans #hamburger.open {
+          color: #fff; }
+          /* line 84, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+          nav.trans #hamburger.open:before {
+            border-color: #fff; }
+          /* line 87, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+          nav.trans #hamburger.open:after {
+            background-color: #fff; }
+      /* line 94, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+      nav.trans.open .right span {
+        color: #fff; }
+      /* line 97, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+      nav.trans.open .right .button-primary {
+        background-color: #fff;
+        color: #333;
+        border-color: #fff; } }
+
+/* line 108, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+#hamburger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  opacity: 0.6; }
+  /* line 113, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+  #hamburger:before {
+    content: "";
+    display: block;
+    height: 6px;
+    width: 32px;
+    position: absolute;
+    top: 14px;
+    right: auto;
+    bottom: auto;
+    left: 9px;
+    -webkit-transition: all, 0.3s;
+    -moz-transition: all, 0.3s;
+    transition: all, 0.3s;
+    box-sizing: content-box;
+    border-top: 3px solid #333;
+    border-bottom: 3px solid #333; }
+  /* line 123, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+  #hamburger:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 32px;
+    position: absolute;
+    top: 32px;
+    right: auto;
+    bottom: auto;
+    left: 9px;
+    -webkit-transition: all, 0.3s;
+    -moz-transition: all, 0.3s;
+    transition: all, 0.3s;
+    background-color: #333; }
+  /* line 131, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+  #hamburger.open {
+    opacity: 1; }
+    /* line 133, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    #hamburger.open:before {
+      border-bottom: 0;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      position: absolute;
+      top: 22px;
+      right: auto;
+      bottom: auto;
+      left: 11px; }
+    /* line 138, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    #hamburger.open:after {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      position: absolute;
+      top: 23px;
+      right: auto;
+      bottom: auto;
+      left: 9px; }
+  /* line 143, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+  #hamburger span {
+    position: absolute;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    left: 50px;
+    -webkit-transition: letter-spacing, 0.2s;
+    -moz-transition: letter-spacing, 0.2s;
+    transition: letter-spacing, 0.2s;
+    line-height: 49px;
+    font-weight: 700;
+    display: none;
+    letter-spacing: 1px;
+    font-size: 12px; }
+  /* line 152, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+  #hamburger:hover span {
+    letter-spacing: 2px; }
+  @media screen and (min-width: 550px) {
+    /* line 156, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    #hamburger span {
+      display: block; } }
+
+/* line 161, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+section.mobile-menu {
+  position: fixed;
+  top: -100%;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all, 0.3s ease-out;
+  -moz-transition: all, 0.3s ease-out;
+  transition: all, 0.3s ease-out;
+  z-index: 9000;
+  background-color: rgba(201, 46, 39, 0.96);
+  display: table;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.2); }
+  /* line 169, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+  section.mobile-menu.open {
+    position: fixed;
+    top: 0px;
+    right: auto;
+    bottom: auto;
+    left: 0; }
+  /* line 172, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+  section.mobile-menu ul {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none; }
+    /* line 178, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    section.mobile-menu ul li {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      max-width: 420px;
+      margin: 0 auto;
+      position: relative; }
+      /* line 185, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+      section.mobile-menu ul li a {
+        font-size: 1em;
+        letter-spacing: 2px;
+        display: block;
+        height: 100%;
+        padding: 0 15px;
+        line-height: 45px;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        -webkit-transition: all, 0.3s;
+        -moz-transition: all, 0.3s;
+        transition: all, 0.3s; }
+        @media screen and (min-width: 750px) {
+          /* line 185, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+          section.mobile-menu ul li a {
+            font-size: 24px; } }
+        /* line 202, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+        section.mobile-menu ul li a:hover {
+          color: rgba(250, 250, 250, 0.8); }
+        /* line 205, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+        section.mobile-menu ul li a:active {
+          color: #1E5753; }
+    /* line 211, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    section.mobile-menu ul li.submenu:not(.open) > a:after {
+      content: "";
+      font-family: FontAwesome;
+      font-weight: normal;
+      margin-left: 5px;
+      position: absolute;
+      right: 15px; }
+    /* line 220, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    section.mobile-menu ul li.submenu.open > a span {
+      display: none; }
+    /* line 223, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    section.mobile-menu ul li.submenu.open > a:before {
+      content: "";
+      font-family: FontAwesome;
+      font-weight: normal;
+      margin-left: 5px;
+      position: absolute;
+      left: 15px; }
+    /* line 230, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    section.mobile-menu ul li.submenu.open > a:after {
+      content: "Back"; }
+    /* line 235, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    section.mobile-menu ul li.submenu ul {
+      display: none; }
+      /* line 237, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+      section.mobile-menu ul li.submenu ul li a {
+        font-weight: normal;
+        font-size: 18px;
+        text-transform: none; }
+    /* line 245, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    section.mobile-menu ul.open > li {
+      display: none; }
+    /* line 248, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+    section.mobile-menu ul.open > li.open {
+      display: block; }
+      /* line 250, /home/jerv/work/no420/source/stylesheets/1-modules/_nav.scss */
+      section.mobile-menu ul.open > li.open ul {
+        display: block; }
+
+/* line 5, /home/jerv/work/no420/source/stylesheets/1-modules/_dividers.scss */
+.divider {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 50px 0; }
+  /* line 11, /home/jerv/work/no420/source/stylesheets/1-modules/_dividers.scss */
+  .divider.divider.spacing-sm {
+    margin: 25px 0; }
+  /* line 14, /home/jerv/work/no420/source/stylesheets/1-modules/_dividers.scss */
+  .divider.divider.spacing-lg {
+    margin: 80px 0; }
+  /* line 17, /home/jerv/work/no420/source/stylesheets/1-modules/_dividers.scss */
+  .divider.divider.spacing-none {
+    margin: 0; }
+  /* line 20, /home/jerv/work/no420/source/stylesheets/1-modules/_dividers.scss */
+  .divider.invisible {
+    background: none; }
+
+/* Background data (Original source: http://subtlepatterns.com/grid-me/) */
+/* line 7, /home/jerv/work/no420/source/stylesheets/2-layouts/_home.scss */
+.hero {
+  padding: 80px 0;
+  background-color: #f5f5f5;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  /* img size is 50x50 */
+  background: url("/images/gridme.png") repeat 0 0;
+  -webkit-animation: bg-scrolling 1.8s infinite;
+  /* Safari 4+ */
+  -moz-animation: bg-scrolling 1.8s infinite;
+  /* Fx 5+ */
+  -o-animation: bg-scrolling 1.8s infinite;
+  /* Opera 12+ */
+  animation: bg-scrolling 1.8s infinite;
+  /* IE 10+ */
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear; }
+  /* line 24, /home/jerv/work/no420/source/stylesheets/2-layouts/_home.scss */
+  .hero h2 {
+    margin: 25px 0 10px 0; }
+  /* line 27, /home/jerv/work/no420/source/stylesheets/2-layouts/_home.scss */
+  .hero h3 {
+    font-weight: 300; }
+  /* line 30, /home/jerv/work/no420/source/stylesheets/2-layouts/_home.scss */
+  .hero img {
+    max-width: 180px;
+    margin: 0 auto;
+    display: block; }
+  @media screen and (min-width: 840px) {
+    /* line 7, /home/jerv/work/no420/source/stylesheets/2-layouts/_home.scss */
+    .hero {
+      padding: 90px 0; } }
+
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 0 50px; } }
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 0 50px; } }
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 0 50px; } }
+@keyframes bg-scrolling {
+  0% {
+    background-position: 0 50px; } }
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome-webfont.eot?v=4.2.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 4, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_core.scss */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* makes the font 33% larger relative to the icon container */
+/* line 6, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_larger.scss */
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%; }
+
+/* line 11, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_larger.scss */
+.fa-2x {
+  font-size: 2em; }
+
+/* line 12, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_larger.scss */
+.fa-3x {
+  font-size: 3em; }
+
+/* line 13, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_larger.scss */
+.fa-4x {
+  font-size: 4em; }
+
+/* line 14, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_larger.scss */
+.fa-5x {
+  font-size: 5em; }
+
+/* line 4, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_fixed-width.scss */
+.fa-fw {
+  width: 1.28571em;
+  text-align: center; }
+
+/* line 5, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_list.scss */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14286em;
+  list-style-type: none; }
+  /* line 9, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_list.scss */
+  .fa-ul > li {
+    position: relative; }
+
+/* line 11, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_list.scss */
+.fa-li {
+  position: absolute;
+  left: -2.14286em;
+  width: 2.14286em;
+  top: 0.14286em;
+  text-align: center; }
+  /* line 17, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_list.scss */
+  .fa-li.fa-lg {
+    left: -1.85714em; }
+
+/* line 5, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eee;
+  border-radius: .1em; }
+
+/* line 11, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.pull-right {
+  float: right; }
+
+/* line 12, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.pull-left {
+  float: left; }
+
+/* line 15, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa.pull-left {
+  margin-right: .3em; }
+/* line 16, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa.pull-right {
+  margin-left: .3em; }
+
+/* line 5, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_spinning.scss */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear; }
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+/* line 5, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+/* line 6, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+/* line 7, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+/* line 9, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+/* line 10, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+/* line 15, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none; }
+
+/* line 5, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle; }
+
+/* line 13, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center; }
+
+/* line 19, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack-1x {
+  line-height: inherit; }
+
+/* line 20, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack-2x {
+  font-size: 2em; }
+
+/* line 21, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-inverse {
+  color: #fff; }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 5, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-glass:before {
+  content: ""; }
+
+/* line 6, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-music:before {
+  content: ""; }
+
+/* line 7, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-search:before {
+  content: ""; }
+
+/* line 8, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-envelope-o:before {
+  content: ""; }
+
+/* line 9, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-heart:before {
+  content: ""; }
+
+/* line 10, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star:before {
+  content: ""; }
+
+/* line 11, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star-o:before {
+  content: ""; }
+
+/* line 12, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user:before {
+  content: ""; }
+
+/* line 13, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-film:before {
+  content: ""; }
+
+/* line 14, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-th-large:before {
+  content: ""; }
+
+/* line 15, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-th:before {
+  content: ""; }
+
+/* line 16, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-th-list:before {
+  content: ""; }
+
+/* line 17, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check:before {
+  content: ""; }
+
+/* line 18, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: ""; }
+
+/* line 21, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-search-plus:before {
+  content: ""; }
+
+/* line 22, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-search-minus:before {
+  content: ""; }
+
+/* line 23, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-power-off:before {
+  content: ""; }
+
+/* line 24, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-signal:before {
+  content: ""; }
+
+/* line 25, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gear:before,
+.fa-cog:before {
+  content: ""; }
+
+/* line 27, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trash-o:before {
+  content: ""; }
+
+/* line 28, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-home:before {
+  content: ""; }
+
+/* line 29, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-o:before {
+  content: ""; }
+
+/* line 30, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-clock-o:before {
+  content: ""; }
+
+/* line 31, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-road:before {
+  content: ""; }
+
+/* line 32, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-download:before {
+  content: ""; }
+
+/* line 33, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-down:before {
+  content: ""; }
+
+/* line 34, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-up:before {
+  content: ""; }
+
+/* line 35, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-inbox:before {
+  content: ""; }
+
+/* line 36, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-play-circle-o:before {
+  content: ""; }
+
+/* line 37, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rotate-right:before,
+.fa-repeat:before {
+  content: ""; }
+
+/* line 39, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-refresh:before {
+  content: ""; }
+
+/* line 40, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list-alt:before {
+  content: ""; }
+
+/* line 41, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lock:before {
+  content: ""; }
+
+/* line 42, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flag:before {
+  content: ""; }
+
+/* line 43, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-headphones:before {
+  content: ""; }
+
+/* line 44, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-volume-off:before {
+  content: ""; }
+
+/* line 45, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-volume-down:before {
+  content: ""; }
+
+/* line 46, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-volume-up:before {
+  content: ""; }
+
+/* line 47, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-qrcode:before {
+  content: ""; }
+
+/* line 48, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-barcode:before {
+  content: ""; }
+
+/* line 49, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tag:before {
+  content: ""; }
+
+/* line 50, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tags:before {
+  content: ""; }
+
+/* line 51, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-book:before {
+  content: ""; }
+
+/* line 52, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bookmark:before {
+  content: ""; }
+
+/* line 53, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-print:before {
+  content: ""; }
+
+/* line 54, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-camera:before {
+  content: ""; }
+
+/* line 55, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-font:before {
+  content: ""; }
+
+/* line 56, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bold:before {
+  content: ""; }
+
+/* line 57, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-italic:before {
+  content: ""; }
+
+/* line 58, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-text-height:before {
+  content: ""; }
+
+/* line 59, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-text-width:before {
+  content: ""; }
+
+/* line 60, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-left:before {
+  content: ""; }
+
+/* line 61, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-center:before {
+  content: ""; }
+
+/* line 62, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-right:before {
+  content: ""; }
+
+/* line 63, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-justify:before {
+  content: ""; }
+
+/* line 64, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list:before {
+  content: ""; }
+
+/* line 65, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dedent:before,
+.fa-outdent:before {
+  content: ""; }
+
+/* line 67, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-indent:before {
+  content: ""; }
+
+/* line 68, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-video-camera:before {
+  content: ""; }
+
+/* line 69, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-photo:before,
+.fa-image:before,
+.fa-picture-o:before {
+  content: ""; }
+
+/* line 72, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pencil:before {
+  content: ""; }
+
+/* line 73, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-map-marker:before {
+  content: ""; }
+
+/* line 74, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-adjust:before {
+  content: ""; }
+
+/* line 75, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tint:before {
+  content: ""; }
+
+/* line 76, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-edit:before,
+.fa-pencil-square-o:before {
+  content: ""; }
+
+/* line 78, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-square-o:before {
+  content: ""; }
+
+/* line 79, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-square-o:before {
+  content: ""; }
+
+/* line 80, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows:before {
+  content: ""; }
+
+/* line 81, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-step-backward:before {
+  content: ""; }
+
+/* line 82, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fast-backward:before {
+  content: ""; }
+
+/* line 83, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-backward:before {
+  content: ""; }
+
+/* line 84, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-play:before {
+  content: ""; }
+
+/* line 85, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pause:before {
+  content: ""; }
+
+/* line 86, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stop:before {
+  content: ""; }
+
+/* line 87, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-forward:before {
+  content: ""; }
+
+/* line 88, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fast-forward:before {
+  content: ""; }
+
+/* line 89, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-step-forward:before {
+  content: ""; }
+
+/* line 90, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eject:before {
+  content: ""; }
+
+/* line 91, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-left:before {
+  content: ""; }
+
+/* line 92, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-right:before {
+  content: ""; }
+
+/* line 93, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus-circle:before {
+  content: ""; }
+
+/* line 94, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus-circle:before {
+  content: ""; }
+
+/* line 95, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-times-circle:before {
+  content: ""; }
+
+/* line 96, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-circle:before {
+  content: ""; }
+
+/* line 97, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-question-circle:before {
+  content: ""; }
+
+/* line 98, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-info-circle:before {
+  content: ""; }
+
+/* line 99, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-crosshairs:before {
+  content: ""; }
+
+/* line 100, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-times-circle-o:before {
+  content: ""; }
+
+/* line 101, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-circle-o:before {
+  content: ""; }
+
+/* line 102, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ban:before {
+  content: ""; }
+
+/* line 103, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-left:before {
+  content: ""; }
+
+/* line 104, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-right:before {
+  content: ""; }
+
+/* line 105, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-up:before {
+  content: ""; }
+
+/* line 106, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-down:before {
+  content: ""; }
+
+/* line 107, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mail-forward:before,
+.fa-share:before {
+  content: ""; }
+
+/* line 109, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-expand:before {
+  content: ""; }
+
+/* line 110, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-compress:before {
+  content: ""; }
+
+/* line 111, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus:before {
+  content: ""; }
+
+/* line 112, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus:before {
+  content: ""; }
+
+/* line 113, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-asterisk:before {
+  content: ""; }
+
+/* line 114, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-exclamation-circle:before {
+  content: ""; }
+
+/* line 115, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gift:before {
+  content: ""; }
+
+/* line 116, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-leaf:before {
+  content: ""; }
+
+/* line 117, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fire:before {
+  content: ""; }
+
+/* line 118, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eye:before {
+  content: ""; }
+
+/* line 119, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eye-slash:before {
+  content: ""; }
+
+/* line 120, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: ""; }
+
+/* line 122, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plane:before {
+  content: ""; }
+
+/* line 123, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calendar:before {
+  content: ""; }
+
+/* line 124, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-random:before {
+  content: ""; }
+
+/* line 125, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comment:before {
+  content: ""; }
+
+/* line 126, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-magnet:before {
+  content: ""; }
+
+/* line 127, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-up:before {
+  content: ""; }
+
+/* line 128, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-down:before {
+  content: ""; }
+
+/* line 129, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-retweet:before {
+  content: ""; }
+
+/* line 130, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shopping-cart:before {
+  content: ""; }
+
+/* line 131, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder:before {
+  content: ""; }
+
+/* line 132, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder-open:before {
+  content: ""; }
+
+/* line 133, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows-v:before {
+  content: ""; }
+
+/* line 134, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows-h:before {
+  content: ""; }
+
+/* line 135, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
+  content: ""; }
+
+/* line 137, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-twitter-square:before {
+  content: ""; }
+
+/* line 138, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-facebook-square:before {
+  content: ""; }
+
+/* line 139, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-camera-retro:before {
+  content: ""; }
+
+/* line 140, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-key:before {
+  content: ""; }
+
+/* line 141, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gears:before,
+.fa-cogs:before {
+  content: ""; }
+
+/* line 143, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comments:before {
+  content: ""; }
+
+/* line 144, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-o-up:before {
+  content: ""; }
+
+/* line 145, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-o-down:before {
+  content: ""; }
+
+/* line 146, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star-half:before {
+  content: ""; }
+
+/* line 147, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-heart-o:before {
+  content: ""; }
+
+/* line 148, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sign-out:before {
+  content: ""; }
+
+/* line 149, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-linkedin-square:before {
+  content: ""; }
+
+/* line 150, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumb-tack:before {
+  content: ""; }
+
+/* line 151, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-external-link:before {
+  content: ""; }
+
+/* line 152, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sign-in:before {
+  content: ""; }
+
+/* line 153, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trophy:before {
+  content: ""; }
+
+/* line 154, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-github-square:before {
+  content: ""; }
+
+/* line 155, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-upload:before {
+  content: ""; }
+
+/* line 156, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lemon-o:before {
+  content: ""; }
+
+/* line 157, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-phone:before {
+  content: ""; }
+
+/* line 158, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-square-o:before {
+  content: ""; }
+
+/* line 159, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bookmark-o:before {
+  content: ""; }
+
+/* line 160, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-phone-square:before {
+  content: ""; }
+
+/* line 161, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-twitter:before {
+  content: ""; }
+
+/* line 162, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-facebook:before {
+  content: ""; }
+
+/* line 163, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-github:before {
+  content: ""; }
+
+/* line 164, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unlock:before {
+  content: ""; }
+
+/* line 165, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-credit-card:before {
+  content: ""; }
+
+/* line 166, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rss:before {
+  content: ""; }
+
+/* line 167, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hdd-o:before {
+  content: ""; }
+
+/* line 168, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bullhorn:before {
+  content: ""; }
+
+/* line 169, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell:before {
+  content: ""; }
+
+/* line 170, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-certificate:before {
+  content: ""; }
+
+/* line 171, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-right:before {
+  content: ""; }
+
+/* line 172, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-left:before {
+  content: ""; }
+
+/* line 173, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-up:before {
+  content: ""; }
+
+/* line 174, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-down:before {
+  content: ""; }
+
+/* line 175, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-left:before {
+  content: ""; }
+
+/* line 176, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-right:before {
+  content: ""; }
+
+/* line 177, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-up:before {
+  content: ""; }
+
+/* line 178, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-down:before {
+  content: ""; }
+
+/* line 179, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-globe:before {
+  content: ""; }
+
+/* line 180, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wrench:before {
+  content: ""; }
+
+/* line 181, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tasks:before {
+  content: ""; }
+
+/* line 182, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-filter:before {
+  content: ""; }
+
+/* line 183, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-briefcase:before {
+  content: ""; }
+
+/* line 184, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows-alt:before {
+  content: ""; }
+
+/* line 185, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-group:before,
+.fa-users:before {
+  content: ""; }
+
+/* line 187, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chain:before,
+.fa-link:before {
+  content: ""; }
+
+/* line 189, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cloud:before {
+  content: ""; }
+
+/* line 190, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flask:before {
+  content: ""; }
+
+/* line 191, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cut:before,
+.fa-scissors:before {
+  content: ""; }
+
+/* line 193, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-copy:before,
+.fa-files-o:before {
+  content: ""; }
+
+/* line 195, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paperclip:before {
+  content: ""; }
+
+/* line 196, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-save:before,
+.fa-floppy-o:before {
+  content: ""; }
+
+/* line 198, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-square:before {
+  content: ""; }
+
+/* line 199, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: ""; }
+
+/* line 202, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list-ul:before {
+  content: ""; }
+
+/* line 203, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list-ol:before {
+  content: ""; }
+
+/* line 204, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-strikethrough:before {
+  content: ""; }
+
+/* line 205, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-underline:before {
+  content: ""; }
+
+/* line 206, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-table:before {
+  content: ""; }
+
+/* line 207, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-magic:before {
+  content: ""; }
+
+/* line 208, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-truck:before {
+  content: ""; }
+
+/* line 209, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pinterest:before {
+  content: ""; }
+
+/* line 210, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pinterest-square:before {
+  content: ""; }
+
+/* line 211, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google-plus-square:before {
+  content: ""; }
+
+/* line 212, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google-plus:before {
+  content: ""; }
+
+/* line 213, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-money:before {
+  content: ""; }
+
+/* line 214, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-down:before {
+  content: ""; }
+
+/* line 215, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-up:before {
+  content: ""; }
+
+/* line 216, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-left:before {
+  content: ""; }
+
+/* line 217, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-right:before {
+  content: ""; }
+
+/* line 218, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-columns:before {
+  content: ""; }
+
+/* line 219, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unsorted:before,
+.fa-sort:before {
+  content: ""; }
+
+/* line 221, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-down:before,
+.fa-sort-desc:before {
+  content: ""; }
+
+/* line 223, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-up:before,
+.fa-sort-asc:before {
+  content: ""; }
+
+/* line 225, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-envelope:before {
+  content: ""; }
+
+/* line 226, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-linkedin:before {
+  content: ""; }
+
+/* line 227, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rotate-left:before,
+.fa-undo:before {
+  content: ""; }
+
+/* line 229, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-legal:before,
+.fa-gavel:before {
+  content: ""; }
+
+/* line 231, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dashboard:before,
+.fa-tachometer:before {
+  content: ""; }
+
+/* line 233, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comment-o:before {
+  content: ""; }
+
+/* line 234, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comments-o:before {
+  content: ""; }
+
+/* line 235, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flash:before,
+.fa-bolt:before {
+  content: ""; }
+
+/* line 237, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sitemap:before {
+  content: ""; }
+
+/* line 238, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-umbrella:before {
+  content: ""; }
+
+/* line 239, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paste:before,
+.fa-clipboard:before {
+  content: ""; }
+
+/* line 241, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lightbulb-o:before {
+  content: ""; }
+
+/* line 242, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-exchange:before {
+  content: ""; }
+
+/* line 243, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cloud-download:before {
+  content: ""; }
+
+/* line 244, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cloud-upload:before {
+  content: ""; }
+
+/* line 245, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-md:before {
+  content: ""; }
+
+/* line 246, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stethoscope:before {
+  content: ""; }
+
+/* line 247, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-suitcase:before {
+  content: ""; }
+
+/* line 248, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell-o:before {
+  content: ""; }
+
+/* line 249, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-coffee:before {
+  content: ""; }
+
+/* line 250, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cutlery:before {
+  content: ""; }
+
+/* line 251, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-text-o:before {
+  content: ""; }
+
+/* line 252, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-building-o:before {
+  content: ""; }
+
+/* line 253, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hospital-o:before {
+  content: ""; }
+
+/* line 254, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ambulance:before {
+  content: ""; }
+
+/* line 255, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-medkit:before {
+  content: ""; }
+
+/* line 256, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fighter-jet:before {
+  content: ""; }
+
+/* line 257, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-beer:before {
+  content: ""; }
+
+/* line 258, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-h-square:before {
+  content: ""; }
+
+/* line 259, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus-square:before {
+  content: ""; }
+
+/* line 260, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-left:before {
+  content: ""; }
+
+/* line 261, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-right:before {
+  content: ""; }
+
+/* line 262, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-up:before {
+  content: ""; }
+
+/* line 263, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-down:before {
+  content: ""; }
+
+/* line 264, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-left:before {
+  content: ""; }
+
+/* line 265, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-right:before {
+  content: ""; }
+
+/* line 266, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-up:before {
+  content: ""; }
+
+/* line 267, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-down:before {
+  content: ""; }
+
+/* line 268, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-desktop:before {
+  content: ""; }
+
+/* line 269, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-laptop:before {
+  content: ""; }
+
+/* line 270, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tablet:before {
+  content: ""; }
+
+/* line 271, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mobile-phone:before,
+.fa-mobile:before {
+  content: ""; }
+
+/* line 273, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle-o:before {
+  content: ""; }
+
+/* line 274, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-quote-left:before {
+  content: ""; }
+
+/* line 275, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-quote-right:before {
+  content: ""; }
+
+/* line 276, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-spinner:before {
+  content: ""; }
+
+/* line 277, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle:before {
+  content: ""; }
+
+/* line 278, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mail-reply:before,
+.fa-reply:before {
+  content: ""; }
+
+/* line 280, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-github-alt:before {
+  content: ""; }
+
+/* line 281, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder-o:before {
+  content: ""; }
+
+/* line 282, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder-open-o:before {
+  content: ""; }
+
+/* line 283, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-smile-o:before {
+  content: ""; }
+
+/* line 284, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-frown-o:before {
+  content: ""; }
+
+/* line 285, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-meh-o:before {
+  content: ""; }
+
+/* line 286, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gamepad:before {
+  content: ""; }
+
+/* line 287, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-keyboard-o:before {
+  content: ""; }
+
+/* line 288, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flag-o:before {
+  content: ""; }
+
+/* line 289, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flag-checkered:before {
+  content: ""; }
+
+/* line 290, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-terminal:before {
+  content: ""; }
+
+/* line 291, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-code:before {
+  content: ""; }
+
+/* line 292, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mail-reply-all:before,
+.fa-reply-all:before {
+  content: ""; }
+
+/* line 294, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star-half-empty:before,
+.fa-star-half-full:before,
+.fa-star-half-o:before {
+  content: ""; }
+
+/* line 297, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-location-arrow:before {
+  content: ""; }
+
+/* line 298, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-crop:before {
+  content: ""; }
+
+/* line 299, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-code-fork:before {
+  content: ""; }
+
+/* line 300, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unlink:before,
+.fa-chain-broken:before {
+  content: ""; }
+
+/* line 302, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-question:before {
+  content: ""; }
+
+/* line 303, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-info:before {
+  content: ""; }
+
+/* line 304, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-exclamation:before {
+  content: ""; }
+
+/* line 305, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-superscript:before {
+  content: ""; }
+
+/* line 306, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-subscript:before {
+  content: ""; }
+
+/* line 307, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eraser:before {
+  content: ""; }
+
+/* line 308, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-puzzle-piece:before {
+  content: ""; }
+
+/* line 309, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-microphone:before {
+  content: ""; }
+
+/* line 310, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-microphone-slash:before {
+  content: ""; }
+
+/* line 311, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shield:before {
+  content: ""; }
+
+/* line 312, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calendar-o:before {
+  content: ""; }
+
+/* line 313, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fire-extinguisher:before {
+  content: ""; }
+
+/* line 314, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rocket:before {
+  content: ""; }
+
+/* line 315, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-maxcdn:before {
+  content: ""; }
+
+/* line 316, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-left:before {
+  content: ""; }
+
+/* line 317, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-right:before {
+  content: ""; }
+
+/* line 318, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-up:before {
+  content: ""; }
+
+/* line 319, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-down:before {
+  content: ""; }
+
+/* line 320, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-html5:before {
+  content: ""; }
+
+/* line 321, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-css3:before {
+  content: ""; }
+
+/* line 322, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-anchor:before {
+  content: ""; }
+
+/* line 323, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unlock-alt:before {
+  content: ""; }
+
+/* line 324, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bullseye:before {
+  content: ""; }
+
+/* line 325, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ellipsis-h:before {
+  content: ""; }
+
+/* line 326, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ellipsis-v:before {
+  content: ""; }
+
+/* line 327, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rss-square:before {
+  content: ""; }
+
+/* line 328, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-play-circle:before {
+  content: ""; }
+
+/* line 329, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ticket:before {
+  content: ""; }
+
+/* line 330, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus-square:before {
+  content: ""; }
+
+/* line 331, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus-square-o:before {
+  content: ""; }
+
+/* line 332, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-level-up:before {
+  content: ""; }
+
+/* line 333, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-level-down:before {
+  content: ""; }
+
+/* line 334, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-square:before {
+  content: ""; }
+
+/* line 335, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pencil-square:before {
+  content: ""; }
+
+/* line 336, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-external-link-square:before {
+  content: ""; }
+
+/* line 337, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-square:before {
+  content: ""; }
+
+/* line 338, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-compass:before {
+  content: ""; }
+
+/* line 339, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-down:before,
+.fa-caret-square-o-down:before {
+  content: ""; }
+
+/* line 341, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-up:before,
+.fa-caret-square-o-up:before {
+  content: ""; }
+
+/* line 343, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before {
+  content: ""; }
+
+/* line 345, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-euro:before,
+.fa-eur:before {
+  content: ""; }
+
+/* line 347, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gbp:before {
+  content: ""; }
+
+/* line 348, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dollar:before,
+.fa-usd:before {
+  content: ""; }
+
+/* line 350, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rupee:before,
+.fa-inr:before {
+  content: ""; }
+
+/* line 352, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cny:before,
+.fa-rmb:before,
+.fa-yen:before,
+.fa-jpy:before {
+  content: ""; }
+
+/* line 356, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before {
+  content: ""; }
+
+/* line 359, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-won:before,
+.fa-krw:before {
+  content: ""; }
+
+/* line 361, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bitcoin:before,
+.fa-btc:before {
+  content: ""; }
+
+/* line 363, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file:before {
+  content: ""; }
+
+/* line 364, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-text:before {
+  content: ""; }
+
+/* line 365, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-alpha-asc:before {
+  content: ""; }
+
+/* line 366, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-alpha-desc:before {
+  content: ""; }
+
+/* line 367, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-amount-asc:before {
+  content: ""; }
+
+/* line 368, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-amount-desc:before {
+  content: ""; }
+
+/* line 369, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-numeric-asc:before {
+  content: ""; }
+
+/* line 370, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-numeric-desc:before {
+  content: ""; }
+
+/* line 371, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-up:before {
+  content: ""; }
+
+/* line 372, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-down:before {
+  content: ""; }
+
+/* line 373, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-youtube-square:before {
+  content: ""; }
+
+/* line 374, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-youtube:before {
+  content: ""; }
+
+/* line 375, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-xing:before {
+  content: ""; }
+
+/* line 376, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-xing-square:before {
+  content: ""; }
+
+/* line 377, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-youtube-play:before {
+  content: ""; }
+
+/* line 378, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dropbox:before {
+  content: ""; }
+
+/* line 379, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stack-overflow:before {
+  content: ""; }
+
+/* line 380, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-instagram:before {
+  content: ""; }
+
+/* line 381, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flickr:before {
+  content: ""; }
+
+/* line 382, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-adn:before {
+  content: ""; }
+
+/* line 383, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bitbucket:before {
+  content: ""; }
+
+/* line 384, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bitbucket-square:before {
+  content: ""; }
+
+/* line 385, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tumblr:before {
+  content: ""; }
+
+/* line 386, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tumblr-square:before {
+  content: ""; }
+
+/* line 387, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-down:before {
+  content: ""; }
+
+/* line 388, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-up:before {
+  content: ""; }
+
+/* line 389, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-left:before {
+  content: ""; }
+
+/* line 390, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-right:before {
+  content: ""; }
+
+/* line 391, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-apple:before {
+  content: ""; }
+
+/* line 392, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-windows:before {
+  content: ""; }
+
+/* line 393, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-android:before {
+  content: ""; }
+
+/* line 394, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-linux:before {
+  content: ""; }
+
+/* line 395, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dribbble:before {
+  content: ""; }
+
+/* line 396, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-skype:before {
+  content: ""; }
+
+/* line 397, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-foursquare:before {
+  content: ""; }
+
+/* line 398, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trello:before {
+  content: ""; }
+
+/* line 399, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-female:before {
+  content: ""; }
+
+/* line 400, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-male:before {
+  content: ""; }
+
+/* line 401, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gittip:before {
+  content: ""; }
+
+/* line 402, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sun-o:before {
+  content: ""; }
+
+/* line 403, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-moon-o:before {
+  content: ""; }
+
+/* line 404, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-archive:before {
+  content: ""; }
+
+/* line 405, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bug:before {
+  content: ""; }
+
+/* line 406, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vk:before {
+  content: ""; }
+
+/* line 407, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-weibo:before {
+  content: ""; }
+
+/* line 408, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-renren:before {
+  content: ""; }
+
+/* line 409, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pagelines:before {
+  content: ""; }
+
+/* line 410, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stack-exchange:before {
+  content: ""; }
+
+/* line 411, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-right:before {
+  content: ""; }
+
+/* line 412, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-left:before {
+  content: ""; }
+
+/* line 413, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before {
+  content: ""; }
+
+/* line 415, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dot-circle-o:before {
+  content: ""; }
+
+/* line 416, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wheelchair:before {
+  content: ""; }
+
+/* line 417, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vimeo-square:before {
+  content: ""; }
+
+/* line 418, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-turkish-lira:before,
+.fa-try:before {
+  content: ""; }
+
+/* line 420, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus-square-o:before {
+  content: ""; }
+
+/* line 421, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-space-shuttle:before {
+  content: ""; }
+
+/* line 422, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-slack:before {
+  content: ""; }
+
+/* line 423, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-envelope-square:before {
+  content: ""; }
+
+/* line 424, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wordpress:before {
+  content: ""; }
+
+/* line 425, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-openid:before {
+  content: ""; }
+
+/* line 426, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before {
+  content: ""; }
+
+/* line 429, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mortar-board:before,
+.fa-graduation-cap:before {
+  content: ""; }
+
+/* line 431, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-yahoo:before {
+  content: ""; }
+
+/* line 432, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google:before {
+  content: ""; }
+
+/* line 433, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-reddit:before {
+  content: ""; }
+
+/* line 434, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-reddit-square:before {
+  content: ""; }
+
+/* line 435, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stumbleupon-circle:before {
+  content: ""; }
+
+/* line 436, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stumbleupon:before {
+  content: ""; }
+
+/* line 437, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-delicious:before {
+  content: ""; }
+
+/* line 438, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-digg:before {
+  content: ""; }
+
+/* line 439, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pied-piper:before {
+  content: ""; }
+
+/* line 440, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pied-piper-alt:before {
+  content: ""; }
+
+/* line 441, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-drupal:before {
+  content: ""; }
+
+/* line 442, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-joomla:before {
+  content: ""; }
+
+/* line 443, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-language:before {
+  content: ""; }
+
+/* line 444, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fax:before {
+  content: ""; }
+
+/* line 445, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-building:before {
+  content: ""; }
+
+/* line 446, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-child:before {
+  content: ""; }
+
+/* line 447, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paw:before {
+  content: ""; }
+
+/* line 448, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-spoon:before {
+  content: ""; }
+
+/* line 449, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cube:before {
+  content: ""; }
+
+/* line 450, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cubes:before {
+  content: ""; }
+
+/* line 451, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-behance:before {
+  content: ""; }
+
+/* line 452, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-behance-square:before {
+  content: ""; }
+
+/* line 453, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-steam:before {
+  content: ""; }
+
+/* line 454, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-steam-square:before {
+  content: ""; }
+
+/* line 455, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-recycle:before {
+  content: ""; }
+
+/* line 456, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-automobile:before,
+.fa-car:before {
+  content: ""; }
+
+/* line 458, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cab:before,
+.fa-taxi:before {
+  content: ""; }
+
+/* line 460, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tree:before {
+  content: ""; }
+
+/* line 461, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-spotify:before {
+  content: ""; }
+
+/* line 462, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-deviantart:before {
+  content: ""; }
+
+/* line 463, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-soundcloud:before {
+  content: ""; }
+
+/* line 464, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-database:before {
+  content: ""; }
+
+/* line 465, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-pdf-o:before {
+  content: ""; }
+
+/* line 466, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-word-o:before {
+  content: ""; }
+
+/* line 467, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-excel-o:before {
+  content: ""; }
+
+/* line 468, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-powerpoint-o:before {
+  content: ""; }
+
+/* line 469, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-photo-o:before,
+.fa-file-picture-o:before,
+.fa-file-image-o:before {
+  content: ""; }
+
+/* line 472, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-zip-o:before,
+.fa-file-archive-o:before {
+  content: ""; }
+
+/* line 474, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-sound-o:before,
+.fa-file-audio-o:before {
+  content: ""; }
+
+/* line 476, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-movie-o:before,
+.fa-file-video-o:before {
+  content: ""; }
+
+/* line 478, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-code-o:before {
+  content: ""; }
+
+/* line 479, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vine:before {
+  content: ""; }
+
+/* line 480, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-codepen:before {
+  content: ""; }
+
+/* line 481, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-jsfiddle:before {
+  content: ""; }
+
+/* line 482, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-life-bouy:before,
+.fa-life-buoy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before {
+  content: ""; }
+
+/* line 487, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle-o-notch:before {
+  content: ""; }
+
+/* line 488, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ra:before,
+.fa-rebel:before {
+  content: ""; }
+
+/* line 490, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ge:before,
+.fa-empire:before {
+  content: ""; }
+
+/* line 492, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-git-square:before {
+  content: ""; }
+
+/* line 493, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-git:before {
+  content: ""; }
+
+/* line 494, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hacker-news:before {
+  content: ""; }
+
+/* line 495, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tencent-weibo:before {
+  content: ""; }
+
+/* line 496, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-qq:before {
+  content: ""; }
+
+/* line 497, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wechat:before,
+.fa-weixin:before {
+  content: ""; }
+
+/* line 499, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-send:before,
+.fa-paper-plane:before {
+  content: ""; }
+
+/* line 501, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-send-o:before,
+.fa-paper-plane-o:before {
+  content: ""; }
+
+/* line 503, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-history:before {
+  content: ""; }
+
+/* line 504, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle-thin:before {
+  content: ""; }
+
+/* line 505, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-header:before {
+  content: ""; }
+
+/* line 506, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paragraph:before {
+  content: ""; }
+
+/* line 507, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sliders:before {
+  content: ""; }
+
+/* line 508, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-alt:before {
+  content: ""; }
+
+/* line 509, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-alt-square:before {
+  content: ""; }
+
+/* line 510, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bomb:before {
+  content: ""; }
+
+/* line 511, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+  content: ""; }
+
+/* line 513, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tty:before {
+  content: ""; }
+
+/* line 514, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-binoculars:before {
+  content: ""; }
+
+/* line 515, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plug:before {
+  content: ""; }
+
+/* line 516, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-slideshare:before {
+  content: ""; }
+
+/* line 517, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-twitch:before {
+  content: ""; }
+
+/* line 518, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-yelp:before {
+  content: ""; }
+
+/* line 519, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-newspaper-o:before {
+  content: ""; }
+
+/* line 520, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wifi:before {
+  content: ""; }
+
+/* line 521, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calculator:before {
+  content: ""; }
+
+/* line 522, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paypal:before {
+  content: ""; }
+
+/* line 523, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google-wallet:before {
+  content: ""; }
+
+/* line 524, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-visa:before {
+  content: ""; }
+
+/* line 525, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-mastercard:before {
+  content: ""; }
+
+/* line 526, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-discover:before {
+  content: ""; }
+
+/* line 527, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-amex:before {
+  content: ""; }
+
+/* line 528, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-paypal:before {
+  content: ""; }
+
+/* line 529, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-stripe:before {
+  content: ""; }
+
+/* line 530, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell-slash:before {
+  content: ""; }
+
+/* line 531, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell-slash-o:before {
+  content: ""; }
+
+/* line 532, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trash:before {
+  content: ""; }
+
+/* line 533, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-copyright:before {
+  content: ""; }
+
+/* line 534, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-at:before {
+  content: ""; }
+
+/* line 535, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eyedropper:before {
+  content: ""; }
+
+/* line 536, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paint-brush:before {
+  content: ""; }
+
+/* line 537, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-birthday-cake:before {
+  content: ""; }
+
+/* line 538, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-area-chart:before {
+  content: ""; }
+
+/* line 539, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pie-chart:before {
+  content: ""; }
+
+/* line 540, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-line-chart:before {
+  content: ""; }
+
+/* line 541, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lastfm:before {
+  content: ""; }
+
+/* line 542, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lastfm-square:before {
+  content: ""; }
+
+/* line 543, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-off:before {
+  content: ""; }
+
+/* line 544, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-on:before {
+  content: ""; }
+
+/* line 545, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bicycle:before {
+  content: ""; }
+
+/* line 546, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bus:before {
+  content: ""; }
+
+/* line 547, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ioxhost:before {
+  content: ""; }
+
+/* line 548, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angellist:before {
+  content: ""; }
+
+/* line 549, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc:before {
+  content: ""; }
+
+/* line 550, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: ""; }
+
+/* line 553, /home/jerv/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/font-awesome-middleman-4.2.3/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-meanpath:before {
+  content: ""; }

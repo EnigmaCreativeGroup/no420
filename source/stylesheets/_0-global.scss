@@ -1,0 +1,205 @@
+$main:#7ED6CF;
+$dark:#284241;
+$shaded:#1E5753;
+$light:#7ED6CF;
+
+html {
+  overflow-y: scroll;
+}
+
+body:not(.index) {
+  margin-top: 50px;
+}
+
+.container {
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media screen and (max-width:840px) {
+  .mobile-center {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:840px) {
+  .mobile-hide {
+    display: none !important;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@mixin br($t, $r, $b, $l) {
+  -webkit-border-radius: $t $r $b $l;
+  border-radius: $t $r $b $l;
+} /* GOML */
+
+@mixin nowrap() {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.padded {
+  padding-top:45px;
+  padding-bottom:45px;
+  &.top {
+    padding-bottom: 0;
+  }
+  &.bottom {
+    padding-top: 0;
+  }
+  @media screen and (max-width: 750px) {
+    padding-top:25px;
+    padding-bottom:25px;
+  }
+  @media screen and (min-width: 840px) {
+    &.mobile, &.top.mobile, &.bottom.mobile {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.padded-sm {
+  padding-top:25px;
+  padding-bottom:25px;
+  &.top {
+    padding-bottom: 0;
+  }
+  &.bottom {
+    padding-top: 0;
+  }
+  @media screen and (max-width: 750px) {
+    padding-top:12px;
+    padding-bottom:12px;
+  }
+  @media screen and (min-width: 840px) {
+    &.mobile, &.top.mobile, &.bottom.mobile {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.margined {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  &.top {
+    margin-bottom: 0;
+  }
+  &.bottom {
+    margin-top: 0;
+  }
+  @media screen and (max-width: 750px) {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  @media screen and (min-width: 840px) {
+    &.mobile, &.top.mobile, &.bottom.mobile {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.margined-sm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  &.top {
+    margin-bottom: 0;
+  }
+  &.bottom {
+    margin-top: 0;
+  }
+  @media screen and (max-width: 750px) {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  @media screen and (min-width: 840px) {
+    &.mobile, &.top.mobile, &.bottom.mobile {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.window {
+  padding: 24px 0;
+  overflow: hidden;
+  &.black {
+    background: #333;
+    color: #fff;
+  }
+  &.blue {
+    background: $main;
+    color: #fff;
+  }
+  &.grey {
+    background: #eee;
+  }
+  &.blue,
+  &.black {
+    .button {
+      color: rgba(250, 250, 250, 0.9);
+      border-color: rgba(250, 250, 250, 0.4);
+      &:hover {
+        color: #fff;
+        border-color: rgba(250, 250, 250, 0.8);
+      }
+    }
+  }
+  &.padding-sm {
+    padding: 24px 0;
+  }
+  @media screen and (min-width: 750px) {
+    padding: 65px 0;
+  }
+}
+
+@mixin max($width, $vertical-spacing) {
+  max-width: $width;
+  margin: $vertical-spacing auto;
+  display: block;
+}
+
+.max-140 {
+  max-width: 140px;
+  margin: 25px auto;
+  display: block;
+}
+
+.max-240 {
+  max-width: 240px;
+  margin: 25px auto;
+  display: block;
+}
+
+.max-440 {
+  max-width: 440px;
+  margin: 25px auto;
+  display: block;
+}
+
+.max-640 {
+  max-width: 640px;
+  margin: 25px auto;
+  display: block;
+}
+
+.margin-none {
+  margin: 0 !important;
+}
