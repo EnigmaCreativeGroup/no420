@@ -1,5 +1,5 @@
 /* Background data (Original source: http://subtlepatterns.com/grid-me/) */
-$bg-url: "/images/gridme.png";
+$bg-url: image-url("/images/gridme.png");
 $bg-width: 50px;
 $bg-height: 50px;
 
@@ -10,7 +10,7 @@ $bg-height: 50px;
 	border-bottom:1px solid #ccc;
 
 	/* img size is 50x50 */
-	background: url($bg-url) repeat 0 0;
+	background: $bg-url repeat 0 0;
 	
 	-webkit-animation: bg-scrolling 1.8s infinite; /* Safari 4+ */
 	-moz-animation:    bg-scrolling 1.8s infinite; /* Fx 5+ */
